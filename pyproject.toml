@@ -1,0 +1,22 @@
+[project]
+name = "anime-recommender"
+version = "0.1.0"
+description = "A project for recommending anime"
+authors = [
+    { name = "Satyam", email = "satyampant420@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain_groq",
+    "chromadb",
+    "streamlit",
+    "pandas",
+    "python-dotenv",
+    "sentence-transformers",
+    "langchain_huggingface",
+    "langchain-chroma>=0.2.6",
+    "ipykernel>=6.30.1",
+]

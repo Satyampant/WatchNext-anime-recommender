@@ -1,0 +1,9 @@
+2025-09-29 17:15:06,265 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-29 17:18:15,540 - INFO - Use pytorch device_name: cpu
+2025-09-29 17:18:15,540 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-29 17:18:29,956 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-29 17:18:34,294 - INFO - Failed to initialize pipeline:The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-09-29 17:46:26,272 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-29 17:46:26,297 - INFO - Use pytorch device_name: cpu
+2025-09-29 17:46:26,297 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-29 17:46:34,442 - INFO - Failed to initialize pipeline:The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable

@@ -1,0 +1,64 @@
+2025-09-30 18:44:57,329 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-30 18:45:10,420 - INFO - Use pytorch device_name: cpu
+2025-09-30 18:45:10,420 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 18:45:10,445 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB733AB40>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 5980661a-9801-49a2-8d40-f916045ca2ea)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:10,449 - WARNING - Retrying in 1s [Retry 1/5].
+2025-09-30 18:45:11,457 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75A9790>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ef1c9d31-f6b8-45b2-a9d5-08f9cfc95f4f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:11,461 - WARNING - Retrying in 2s [Retry 2/5].
+2025-09-30 18:45:13,466 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB7368F80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ca954b17-89c2-48c1-bfe7-ed6054e1fb33)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:13,468 - WARNING - Retrying in 4s [Retry 3/5].
+2025-09-30 18:45:17,473 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75A8AD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7b857109-4617-4ea7-a08b-410491235af6)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:17,473 - WARNING - Retrying in 8s [Retry 4/5].
+2025-09-30 18:45:36,625 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75A9460>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a23ace1a-9891-489c-9dc3-6fc29f3fd976)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:36,629 - WARNING - Retrying in 8s [Retry 5/5].
+2025-09-30 18:45:44,641 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75A97F0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9d253445-76d7-4750-bd7c-8f431b9b3bb0)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 18:45:44,659 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75A9F70>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 77833cdc-6c3c-4021-8cba-d069ca6d175b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-09-30 18:45:44,659 - WARNING - Retrying in 1s [Retry 1/5].
+2025-09-30 18:45:45,669 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75AA4E0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7ee9baa4-7b1e-4036-9a8f-92c49df7c3c5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-09-30 18:45:45,674 - WARNING - Retrying in 2s [Retry 2/5].
+2025-09-30 18:45:47,680 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75AA8A0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b2ac56b0-d11b-4951-a803-451e90f7c19f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-09-30 18:45:47,680 - WARNING - Retrying in 4s [Retry 3/5].
+2025-09-30 18:45:51,685 - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002CEB75AABD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f9d60dd5-6fc7-4315-9731-705b43556533)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2025-09-30 18:45:51,688 - WARNING - Retrying in 8s [Retry 4/5].
+2025-09-30 18:46:20,041 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-30 18:46:20,595 - INFO - Failed to initialize pipeline:The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-09-30 18:57:27,942 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-30 18:57:27,964 - INFO - Use pytorch device_name: cpu
+2025-09-30 18:57:27,964 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 18:57:53,596 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-09-30 18:59:14,520 - INFO - Recieved a query: Action adventure anime with unique story
+2025-09-30 18:59:14,523 - ERROR - Failed to generate recommendations:`run` not supported when there is not exactly one output key. Got ['result', 'source_documents'].
+2025-09-30 19:01:06,755 - INFO - Recieved a query: Action adventure anime with unique story
+2025-09-30 19:01:06,755 - ERROR - Failed to generate recommendations:`run` not supported when there is not exactly one output key. Got ['result', 'source_documents'].
+2025-09-30 19:01:12,097 - INFO - Recieved a query: Action adventure anime with unique story
+2025-09-30 19:01:12,099 - ERROR - Failed to generate recommendations:`run` not supported when there is not exactly one output key. Got ['result', 'source_documents'].
+2025-09-30 19:01:36,854 - INFO - Recieved a query: action adventure anime with unique story
+2025-09-30 19:01:36,854 - ERROR - Failed to generate recommendations:`run` not supported when there is not exactly one output key. Got ['result', 'source_documents'].
+2025-09-30 19:02:42,416 - INFO - Recieved a query: action adventure
+2025-09-30 19:02:42,416 - ERROR - Failed to generate recommendations:`run` not supported when there is not exactly one output key. Got ['result', 'source_documents'].
+2025-09-30 19:03:18,567 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-30 19:03:27,909 - INFO - Use pytorch device_name: cpu
+2025-09-30 19:03:27,909 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 19:03:45,842 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-30 19:03:49,567 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-09-30 19:03:58,157 - INFO - Recieved a query: action adventure
+2025-09-30 19:03:58,161 - ERROR - Failed to generate recommendations:Missing some input keys: {'query'}
+2025-09-30 19:05:23,445 - INFO - Recieved a query: action adventure
+2025-09-30 19:05:23,445 - ERROR - Failed to generate recommendations:Missing some input keys: {'query'}
+2025-09-30 19:09:17,662 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-09-30 19:09:20,663 - INFO - Use pytorch device_name: cpu
+2025-09-30 19:09:20,663 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-30 19:09:35,613 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 3e8e1a77-fcc1-44b6-9adf-3b9b1219a34a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 19:09:35,615 - WARNING - Retrying in 1s [Retry 1/5].
+2025-09-30 19:09:51,644 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: ad1c72ca-8fe6-4401-ab48-d18aa0790896)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2025-09-30 19:09:51,646 - WARNING - Retrying in 2s [Retry 2/5].
+2025-09-30 19:10:52,944 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: a80c563f-9222-4e10-a5e1-0e0dc33d3a17)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2025-09-30 19:10:52,946 - WARNING - Retrying in 1s [Retry 1/5].
+2025-09-30 19:11:17,262 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 1eece3d0-df7d-4a4c-b1c8-9f6143077560)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2025-09-30 19:11:17,263 - WARNING - Retrying in 1s [Retry 1/5].
+2025-09-30 19:11:35,668 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: f27ab48a-7b55-41e0-a0f3-7189bdf2d5cc)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2025-09-30 19:11:35,669 - WARNING - Retrying in 2s [Retry 2/5].
+2025-09-30 19:12:26,244 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-30 19:12:27,443 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-09-30 19:12:54,742 - INFO - Recieved a query: action adventure
+2025-09-30 19:12:54,743 - ERROR - Failed to generate recommendations:Missing some input keys: {'query'}

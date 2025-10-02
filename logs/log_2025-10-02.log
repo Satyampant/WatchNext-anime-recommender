@@ -1,0 +1,33 @@
+2025-10-02 10:41:46,372 - INFO - Intializing Recommdation Pipeline
+2025-10-02 10:41:54,397 - INFO - Use pytorch device_name: cpu
+2025-10-02 10:41:54,398 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 10:42:02,848 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 10:42:06,390 - INFO - Pipleine intialized sucesfully...
+2025-10-02 10:42:29,753 - INFO - Recived a query Anime similar to demon slayer
+2025-10-02 10:42:31,563 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 10:42:31,590 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 10:58:20,449 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 10:58:22,334 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 10:58:22,340 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 11:01:22,594 - INFO - Intializing Recommdation Pipeline
+2025-10-02 11:01:27,614 - INFO - Use pytorch device_name: cpu
+2025-10-02 11:01:27,614 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 11:01:36,794 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 11:01:37,836 - INFO - Pipleine intialized sucesfully...
+2025-10-02 11:02:31,548 - INFO - Recived a query action adventure
+2025-10-02 11:02:32,902 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 11:02:32,936 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 11:07:55,597 - INFO - Recived a query action adventure
+2025-10-02 11:08:00,699 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 11:08:00,699 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 11:08:14,032 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 11:08:15,229 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 11:08:15,229 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 11:13:20,406 - INFO - Intializing Recommdation Pipeline
+2025-10-02 11:13:26,544 - INFO - Use pytorch device_name: cpu
+2025-10-02 11:13:26,544 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 11:13:38,073 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 11:13:41,239 - INFO - Pipleine intialized sucesfully...
+2025-10-02 11:13:56,389 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 11:13:58,683 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 11:13:58,711 - INFO - Recommendation generated sucesfulyy...

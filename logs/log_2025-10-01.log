@@ -1,0 +1,56 @@
+2025-10-01 05:17:48,055 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-10-01 05:17:58,130 - INFO - Use pytorch device_name: cpu
+2025-10-01 05:17:58,133 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 05:18:08,054 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-01 05:18:11,437 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-10-01 05:18:33,793 - INFO - Recieved a query: action adventure
+2025-10-01 05:18:33,794 - ERROR - Failed to generate recommendations:Missing some input keys: {'query'}
+2025-10-01 05:27:03,827 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-10-01 05:27:10,382 - INFO - Use pytorch device_name: cpu
+2025-10-01 05:27:10,382 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 05:27:19,486 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-01 05:27:22,386 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-10-01 05:27:32,729 - INFO - Recieved a query: action adventure
+2025-10-01 05:27:32,729 - ERROR - Failed to generate recommendations:Missing some input keys: {'query'}
+2025-10-01 05:31:34,829 - INFO - Initializing AnimeRecommendation Pipeline...
+2025-10-01 05:31:42,912 - INFO - Use pytorch device_name: cpu
+2025-10-01 05:31:42,914 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 05:31:50,675 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-01 05:31:53,649 - INFO - AnimeRecommendationPipeline initialized successfully.
+2025-10-01 05:32:06,790 - INFO - Recieved a query: action adventure
+2025-10-01 05:32:08,407 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 05:32:08,442 - INFO - Recommendations generated successfully.
+2025-10-01 05:42:01,997 - INFO - Intializing Recommdation Pipeline
+2025-10-01 05:42:05,038 - INFO - Use pytorch device_name: cpu
+2025-10-01 05:42:05,038 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 05:42:12,826 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-01 05:42:15,753 - INFO - Pipleine intialized sucesfully...
+2025-10-01 05:44:12,253 - INFO - Recived a query action adventure
+2025-10-01 05:44:14,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 05:44:14,138 - INFO - Recommendation generated sucesfulyy...
+2025-10-01 05:48:26,385 - INFO - Intializing Recommdation Pipeline
+2025-10-01 05:48:26,386 - INFO - Use pytorch device_name: cpu
+2025-10-01 05:48:26,386 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 05:48:34,859 - INFO - Pipleine intialized sucesfully...
+2025-10-01 05:48:45,932 - INFO - Recived a query action adventure
+2025-10-01 05:48:47,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 05:48:47,614 - INFO - Recommendation generated sucesfulyy...
+2025-10-01 05:49:19,725 - INFO - Recived a query action adventure with unique storyline
+2025-10-01 05:49:20,823 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 05:49:20,830 - INFO - Recommendation generated sucesfulyy...
+2025-10-01 05:50:11,736 - INFO - Recived a query anime similar to one piece
+2025-10-01 05:50:13,330 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 05:50:13,333 - INFO - Recommendation generated sucesfulyy...
+2025-10-01 10:44:16,122 - INFO - Intializing Recommdation Pipeline
+2025-10-01 10:44:21,989 - INFO - Use pytorch device_name: cpu
+2025-10-01 10:44:21,989 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 10:44:27,286 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-01 10:44:28,766 - INFO - Pipleine intialized sucesfully...
+2025-10-01 10:45:10,829 - INFO - Intializing Recommdation Pipeline
+2025-10-01 10:45:10,830 - INFO - Use pytorch device_name: cpu
+2025-10-01 10:45:10,830 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-01 10:45:17,062 - INFO - Pipleine intialized sucesfully...
+2025-10-01 10:45:40,548 - INFO - Recived a query One piece
+2025-10-01 10:45:41,722 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-01 10:45:41,770 - INFO - Recommendation generated sucesfulyy...
+2025-10-01 10:49:00,213 - INFO - Recived a query One piece
