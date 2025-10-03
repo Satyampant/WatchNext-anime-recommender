@@ -13,7 +13,7 @@ class AnimeRecommendationPipeline:
 
             vector_builder = VectorStoreBuilder(csv_path="" , persist_dir=persist_dir)
 
-            retriever = vector_builder.load_vector_store().as_retriever()
+            retriever = vector_builder.load_vector_store().as_retriever(search_kwargs={"k":3})
 
             self.recommender = AnimeRecommender(retriever,GROQ_API_KEY,MODEL_NAME)
 

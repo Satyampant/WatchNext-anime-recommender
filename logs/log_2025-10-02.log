@@ -31,3 +31,174 @@
 2025-10-02 11:13:56,389 - INFO - Recived a query anime similar to solo leveling
 2025-10-02 11:13:58,683 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-10-02 11:13:58,711 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 11:54:10,868 - INFO - Intializing Recommdation Pipeline
+2025-10-02 11:54:16,413 - INFO - Use pytorch device_name: cpu
+2025-10-02 11:54:16,413 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 11:54:23,382 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 11:54:24,421 - INFO - Pipleine intialized sucesfully...
+2025-10-02 11:54:32,004 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 11:54:33,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 11:54:33,750 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:01:31,784 - INFO - Intializing Recommdation Pipeline
+2025-10-02 12:01:41,341 - INFO - Use pytorch device_name: cpu
+2025-10-02 12:01:41,341 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 12:01:51,719 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 12:01:55,235 - INFO - Pipleine intialized sucesfully...
+2025-10-02 12:02:09,426 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 12:02:11,689 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:02:11,725 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:06:18,126 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 12:06:19,706 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:06:19,721 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:06:55,595 - INFO - Intializing Recommdation Pipeline
+2025-10-02 12:07:02,880 - INFO - Use pytorch device_name: cpu
+2025-10-02 12:07:02,880 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 12:07:11,687 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 12:07:14,910 - INFO - Pipleine intialized sucesfully...
+2025-10-02 12:07:23,616 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 12:07:25,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:07:25,447 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:11:17,298 - INFO - Intializing Recommdation Pipeline
+2025-10-02 12:11:20,220 - INFO - Use pytorch device_name: cpu
+2025-10-02 12:11:20,220 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 12:11:28,347 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 12:11:29,802 - INFO - Pipleine intialized sucesfully...
+2025-10-02 12:11:36,195 - INFO - Recived a query anime similar to solo leveling
+2025-10-02 12:11:37,850 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:11:37,913 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:11:52,138 - INFO - Recived a query One piece
+2025-10-02 12:11:53,079 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:11:53,125 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:14:07,351 - INFO - Intializing Recommdation Pipeline
+2025-10-02 12:14:10,176 - INFO - Use pytorch device_name: cpu
+2025-10-02 12:14:10,176 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 12:14:18,842 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-02 12:14:20,327 - INFO - Pipleine intialized sucesfully...
+2025-10-02 12:14:26,690 - INFO - Recived a query One piece
+2025-10-02 12:14:28,043 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 12:14:28,083 - INFO - Recommendation generated sucesfulyy...
+2025-10-02 12:18:51,373 - INFO - Starting to build pipeline...
+2025-10-02 12:18:51,785 - INFO - Data  loaded and processed...
+2025-10-02 12:18:53,485 - INFO - Use pytorch device_name: cpu
+2025-10-02 12:18:53,485 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1003, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1157, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1035, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1104, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1071, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1062, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1052, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1049, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1053, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1019, which is longer than the specified 1000
+2025-10-02 12:19:02,819 - WARNING - Created a chunk of size 1071, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1020, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1165, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1045, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1013, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1074, which is longer than the specified 1000
+2025-10-02 12:19:02,828 - WARNING - Created a chunk of size 1110, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1070, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1091, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1064, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1043, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1192, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1055, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1053, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1057, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1372, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1078, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1520, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1033, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1212, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1050, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1026, which is longer than the specified 1000
+2025-10-02 12:19:02,834 - WARNING - Created a chunk of size 1816, which is longer than the specified 1000
+2025-10-02 12:19:02,850 - WARNING - Created a chunk of size 1138, which is longer than the specified 1000
+2025-10-02 12:19:02,850 - WARNING - Created a chunk of size 1007, which is longer than the specified 1000
+2025-10-02 12:19:02,850 - WARNING - Created a chunk of size 1096, which is longer than the specified 1000
+2025-10-02 12:19:02,852 - WARNING - Created a chunk of size 1105, which is longer than the specified 1000
+2025-10-02 12:19:02,852 - WARNING - Created a chunk of size 1054, which is longer than the specified 1000
+2025-10-02 12:19:02,852 - WARNING - Created a chunk of size 1102, which is longer than the specified 1000
+2025-10-02 12:19:02,854 - WARNING - Created a chunk of size 1072, which is longer than the specified 1000
+2025-10-02 12:19:02,854 - WARNING - Created a chunk of size 1064, which is longer than the specified 1000
+2025-10-02 12:19:02,854 - WARNING - Created a chunk of size 1096, which is longer than the specified 1000
+2025-10-02 12:19:02,854 - WARNING - Created a chunk of size 1049, which is longer than the specified 1000
+2025-10-02 12:19:02,856 - WARNING - Created a chunk of size 1313, which is longer than the specified 1000
+2025-10-02 12:19:02,856 - WARNING - Created a chunk of size 1470, which is longer than the specified 1000
+2025-10-02 12:19:02,858 - WARNING - Created a chunk of size 1055, which is longer than the specified 1000
+2025-10-02 12:19:02,858 - WARNING - Created a chunk of size 1801, which is longer than the specified 1000
+2025-10-02 12:19:02,858 - WARNING - Created a chunk of size 1031, which is longer than the specified 1000
+2025-10-02 12:19:02,860 - WARNING - Created a chunk of size 1027, which is longer than the specified 1000
+2025-10-02 12:19:02,860 - WARNING - Created a chunk of size 1223, which is longer than the specified 1000
+2025-10-02 12:19:02,862 - WARNING - Created a chunk of size 1134, which is longer than the specified 1000
+2025-10-02 12:19:02,862 - WARNING - Created a chunk of size 1338, which is longer than the specified 1000
+2025-10-02 12:19:02,862 - WARNING - Created a chunk of size 1018, which is longer than the specified 1000
+2025-10-02 12:19:02,864 - WARNING - Created a chunk of size 1236, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1042, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1308, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1089, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1049, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1250, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1135, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1070, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1096, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1013, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1086, which is longer than the specified 1000
+2025-10-02 12:19:02,866 - WARNING - Created a chunk of size 1081, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1199, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1165, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1019, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1310, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1167, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1080, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1200, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1008, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1540, which is longer than the specified 1000
+2025-10-02 12:19:02,882 - WARNING - Created a chunk of size 1024, which is longer than the specified 1000
+2025-10-02 12:19:02,898 - WARNING - Created a chunk of size 1339, which is longer than the specified 1000
+2025-10-02 12:19:02,898 - WARNING - Created a chunk of size 1333, which is longer than the specified 1000
+2025-10-02 12:19:02,898 - WARNING - Created a chunk of size 1172, which is longer than the specified 1000
+2025-10-02 12:19:02,898 - WARNING - Created a chunk of size 1411, which is longer than the specified 1000
+2025-10-02 12:19:02,898 - WARNING - Created a chunk of size 1115, which is longer than the specified 1000
+2025-10-02 12:19:02,917 - WARNING - Created a chunk of size 1173, which is longer than the specified 1000
+2025-10-02 12:19:02,917 - WARNING - Created a chunk of size 1052, which is longer than the specified 1000
+2025-10-02 12:19:02,917 - WARNING - Created a chunk of size 1268, which is longer than the specified 1000
+2025-10-02 12:19:02,928 - WARNING - Created a chunk of size 1012, which is longer than the specified 1000
+2025-10-02 12:19:02,928 - WARNING - Created a chunk of size 1044, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1470, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1068, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1344, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1071, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1677, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1050, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1112, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1094, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 1089, which is longer than the specified 1000
+2025-10-02 12:19:02,930 - WARNING - Created a chunk of size 2160, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1026, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1346, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1125, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1061, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1025, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1216, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1297, which is longer than the specified 1000
+2025-10-02 12:19:02,946 - WARNING - Created a chunk of size 1061, which is longer than the specified 1000
+2025-10-02 12:19:02,968 - WARNING - Created a chunk of size 1064, which is longer than the specified 1000
+2025-10-02 12:19:02,968 - WARNING - Created a chunk of size 1531, which is longer than the specified 1000
+2025-10-02 12:19:02,980 - WARNING - Created a chunk of size 2171, which is longer than the specified 1000
+2025-10-02 12:19:02,980 - WARNING - Created a chunk of size 1099, which is longer than the specified 1000
+2025-10-02 12:19:02,994 - WARNING - Created a chunk of size 1232, which is longer than the specified 1000
+2025-10-02 12:19:02,994 - WARNING - Created a chunk of size 1556, which is longer than the specified 1000
+2025-10-02 12:19:02,994 - WARNING - Created a chunk of size 1291, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1622, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1573, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1377, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1806, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1479, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1162, which is longer than the specified 1000
+2025-10-02 12:19:03,010 - WARNING - Created a chunk of size 1092, which is longer than the specified 1000
+2025-10-02 12:19:03,028 - WARNING - Created a chunk of size 1021, which is longer than the specified 1000
+2025-10-02 12:19:03,028 - WARNING - Created a chunk of size 1131, which is longer than the specified 1000
+2025-10-02 12:19:03,028 - WARNING - Created a chunk of size 1449, which is longer than the specified 1000
+2025-10-02 12:19:03,108 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.

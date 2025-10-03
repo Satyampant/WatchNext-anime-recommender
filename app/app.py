@@ -1,11 +1,6 @@
 import sys
 import os
 
-current_dir = os.path.dirname(__file__)
-
-project_root = os.path.abspath(os.path.join(current_dir, '..'))
-sys.path.append(project_root)
-
 import streamlit as st
 from pipeline.pipeline import AnimeRecommendationPipeline
 from dotenv import load_dotenv
@@ -44,50 +39,27 @@ if query:
             response = None
 
     if response:
-        st.markdown("---")
+        st.markdown("### 🎬 Recommended Anime:")
+        st.write(response['recommendation_text'])
         
-        # 1. Display the overall recommendation text from the LLM
-        st.markdown("### 💬 Your Personalized Recommendation Summary")
-        st.info(response['recommendation_text'])
-
-        # 2. Display the individual recommended animes with images
-        st.markdown("### 🖼️ Recommended Anime Titles")
-        st.write(response)
-        
-        animes = response.get('recommended_animes_with_images', [])
-
-        if not animes:
-            st.warning("Could not retrieve specific anime source documents for display.")
-        
-        # Display recommendations in a grid format (2 columns per row)
-        cols = st.columns(2)
-        
-        for i, anime in enumerate(animes):
-            title = anime.get('title', 'Unknown Title')
-            image_url = anime.get('image_url')
-
-            # Use the modulo operator to distribute items into columns
-            col = cols[i % 2]
+        # Display anime images and titles in a better layout
+        if response['recommended_animes_with_images']:
+            st.markdown("---")
+            st.markdown("### 📺 Featured Anime:")
             
-            with col:
-                st.markdown(f"**{i+1}. {title}**", unsafe_allow_html=True)
+            for anime in response['recommended_animes_with_images']:
+                # Create two columns: one for image, one for title
+                col1, col2 = st.columns([1, 3])  # Image gets 1/4 width, title gets 3/4
                 
-                # Use Streamlit columns within the main column for image and details
-                img_col, text_col = st.columns([1, 2])
+                with col1:
+                    st.image(anime['image_url'], width=150)
                 
-                with img_col:
-                    if image_url:
-                        # Display the image using the provided URL
-                        st.image(
-                            image_url, 
-                            caption=title, 
-                            use_column_width="auto"
-                        )
-                    else:
-                        st.markdown("*(Image not available)*")
-
-                with text_col:
-                    
-                    st.markdown(f"**Title:** {title}")
-                    st.markdown(f"**Source Document:** Retrieved as a top match to your query.")
-                    st.markdown("---")
+                with col2:
+                    st.markdown(f"#### {anime['title']}")
+                    st.write("")  # Add some spacing
+                
+                st.markdown("---")  # Divider between anime
+        else:
+            st.info("Could not retrieve specific anime source documents for display.")
+    else:
+        st.warning("No recommendations available. Please try a different query.")
