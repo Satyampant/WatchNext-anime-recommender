@@ -1,5 +1,5 @@
-## Parent image
-FROM python:3.12-slim
+## Parent image with uv pre-installed
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 ## Essential environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -8,20 +8,16 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 ## Work directory inside the docker container
 WORKDIR /app
 
-## Installing system dependencies and uv
+## Installing system dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    && rm -rf /var/lib/apt/lists/* \
-    && curl -LsSf https://astral.sh/uv/install.sh | sh
-
-## Add uv to PATH
-ENV PATH="/root/.cargo/bin:$PATH"
+    && rm -rf /var/lib/apt/lists/*
 
 ## Copying all contents from local to app
 COPY . .
 
-## Install dependencies with uv (use --system for production, not -e)
+## Install dependencies with uv (already in PATH)
 RUN uv pip install --system .
 
 ## Used PORTS
